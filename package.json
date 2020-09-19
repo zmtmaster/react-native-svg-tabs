@@ -7,16 +7,41 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "name": "react-native-svg-tabs",
+  "author": {
+    "email": "zmtmaster@gmail.com",
+    "name": "Matan Kastel"
+  },
+  "repository": {
+    "url": "https://github.com/zmtmaster/react-native-svg-tabs.git"
+  },
   "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "^5.8.0",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
+    "@shopify/restyle": "^1.2.0",
+    "d3-path": "^2.0.0",
+    "d3-shape": "^2.0.0",
     "expo": "~38.0.8",
+    "expo-linear-gradient": "~8.2.1",
     "expo-status-bar": "^1.0.2",
+    "lodash": "^4.17.20",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-vector-icons": "^7.1.0",
     "react-native-web": "~0.11.7"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
+    "babel-plugin-root-import": "^6.5.0",
     "babel-preset-expo": "~8.1.0"
   },
   "private": true
